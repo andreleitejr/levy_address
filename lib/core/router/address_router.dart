@@ -1,8 +1,11 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:levy_address/core/router/address_router.gr.dart';
+import 'package:levy_address/address.dart';
+import 'package:levy_core/core/router/router.dart';
 
-@AutoRouterConfig()
-final class AddressRouter extends RootStackRouter {
+final class AddressRouter implements MicroAppRouter {
+  @override
+  String get name => "address";
+
   @override
   List<AutoRoute> get routes => [
     AutoRoute(page: AddressRoute.page),

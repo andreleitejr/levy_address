@@ -12,12 +12,14 @@ dependencies:
     sdk: flutter
 
   levy_core:
-    git:
-      url: https://github.com/andreleitejr/levy_core.git
+    path: ../levy_core
+#    git:
+#      url: https://github.com/andreleitejr/levy_core.git
 
   levy_dependencies:
-    git:
-      url: https://github.com/andreleitejr/levy_dependencies.git
+    path: ../levy_dependencies
+#    git:
+#      url: https://github.com/andreleitejr/levy_dependencies.git
 
   auto_route:
   auto_route_generator:

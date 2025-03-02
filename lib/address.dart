@@ -1,3 +1,5 @@
+export 'package:levy_address/core/router/address_router.dart';
+export 'package:levy_address/core/router/address_router.gr.dart';
 export 'package:levy_address/features/address/data/datasources/address_datasource.dart';
 export 'package:levy_address/features/address/data/datasources/address_datasource_impl.dart';
 export 'package:levy_address/features/address/data/datasources/address_datasource_mock.dart';
