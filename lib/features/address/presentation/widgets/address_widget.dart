@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:levy_address/address.dart';
 import 'package:levy_core/core.dart';
+import 'package:levy_shared_entities/entities.dart';
 
 final class AddressWidget extends StatelessWidget {
   const AddressWidget({

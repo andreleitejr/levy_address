@@ -13,17 +13,24 @@ dependencies:
 
   levy_core:
     path: ../levy_core
-#    git:
-#      url: https://github.com/andreleitejr/levy_core.git
+  #    git:
+  #      url: https://github.com/andreleitejr/levy_core.git
 
   levy_dependencies:
     path: ../levy_dependencies
+
+  levy_shared_entities:
+    path: ../levy_shared_entities
+
+  levy_test_utils:
+    path: ../levy_test_utils
 #    git:
-#      url: https://github.com/andreleitejr/levy_dependencies.git
+#      url: https://github.com/andreleitejr/levy_test_utils.git
 
   auto_route:
   auto_route_generator:
   flutter_riverpod:
+  get_it:
   injectable:
   json_annotation:
   shimmer:

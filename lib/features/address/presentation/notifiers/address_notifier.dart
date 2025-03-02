@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:levy_address/address.dart';
+import 'package:levy_shared_entities/entities.dart';
 
 final class AddressNotifier extends StateNotifier<AddressState> {
   final GetAddressUseCase _usecase;
